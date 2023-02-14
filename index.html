@@ -11,28 +11,49 @@
 <body>
     
     <header>
-        <img id="background" src="assets/design1_image1.jpg"  alt="A kid playing hockey">
         <h1 id="company-name">Mighty Ducks Hockey League</h1>
-        <h2 id="title">Upcoming Events</h2>
-        <img id="logo" src="assets/Logo_Mighty_ducks-01.png" alt="Mighty ducks logo">
+        <div class="logo-title-container">
+            <h2 id="title">Upcoming Events</h2>
+            <img id="logo" src="assets/Logo_Mighty_ducks-01.png" alt="Mighty ducks logo">
+        </div>
     </header>
     
     
     <main>
         <nav>
-            <h4>Home</h4>
+            <a href="#"><button class="selected">Home</button></a>
             <br>
-            <h4><a href="./about.html">About MDHL</a></h4>
+            <a href="./about.html"><button class="link">About MDHL</button></a>
             <br>
-            <h4><a href="./contact.html">Contact</a></h4>
+            <a href="./contact.html"><button class="link">Contact</button></a>
+            <br>
+            <a href="./schedule.html"><button class="link">Game Information</button></a>
+            <br>
+            <a href="./rules.html"><button class="link">Rules</button></a>
         </nav>
         <section>
-            <h3>August 4</h3>
-                <h5 class="idented">MDSL Fundraiser</h5>
-            <h3>August 16</h3>
-                <h5 class="idented">Season Kick-off: Meet the Teams</h5>
-            <h3>September 1</h3>
-                <h5 class="idented">First Game of the Season (Check Game Schedule for details)</h5>
+            <article>
+                <img class="card-image" src="assets/hockey_1.jpg" alt="kids playing hockey">
+                <div class="card-containter">
+                    <h3>August 4</h3>
+                    <p class="idented">MDSL Fundraiser</p>
+                </div>
+            </article>
+            <article>
+                <img class="card-image" src="assets/hockey_2.jpg" alt="kids playing hockey">
+                <div class="card-containter">
+                    <h3>August 16</h3>
+                    <p class="idented">Season Kick-off: Meet the Teams</p>
+                </div>
+            </article>
+            <article>
+                <img class="card-image" src="assets/hockey_3.jpg" alt="kids playing hockey">
+                
+                <div class="card-containter">
+                    <h3>September 1</h3>
+                    <p class="idented">First Game of the Season (Check Game Information for details)</p>
+                </div>
+            </article>
         </section>
     </main>
     
