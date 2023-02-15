@@ -64,8 +64,13 @@ main{
     flex-direction: row;
 }
 nav{
-    width: 30%;
+    display: flex;
+    flex-direction: column;
+    width:30%;
     height: auto;
+}
+.navbutton{
+    width: 70%;
 }
 .selected{
     opacity: 0.5;
@@ -73,8 +78,8 @@ nav{
     background-color: var(--color4);
     color: var(--color5);
 }
-button{
-    padding: 1rem 5rem;
+div.button{
+    padding: 1rem 1rem;
     width: 70%;
     background-color: var(--color2);
     transition: 0.3s;
@@ -85,19 +90,21 @@ button{
 a,a:active,a:visited{
   color: var(--color5);  
   text-decoration: none;
+  padding:1rem 2rem;
 }
 .link:hover{
     width: 90%;
     background-color: var(--color1);
 }
 /* ***Main content*** */
-section{
+div.section{
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 2%;
+    margin-right: 5%;
 }
 
 .idented{
@@ -195,13 +202,16 @@ li b{
     display: flex;
     justify-content: space-between;
 }
+/* ***TABLE*** */
 table{
     color: var(--color4);
     border: 2px solid var(--color4);
     border-collapse: collapse;
+    
 }
 table, td, th{
     border: 1px solid var(--color4);
+    
 }
 tr{
     background-color: var(--color5);
