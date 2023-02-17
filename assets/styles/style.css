@@ -274,7 +274,7 @@ div.map-container{
     margin-bottom: 5%;
     box-shadow: 0 4px 8px 0 var(--color4);
 }
-#map-icon{
+.map-icon{
     width: 1em;
 }
 td.location{
