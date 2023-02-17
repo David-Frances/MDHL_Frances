@@ -223,5 +223,48 @@ th{
 tr:nth-child(even){
     background-color:var(--color7);
 }
-
-
+/* ***Registration Form*** */
+form{
+    display: flex;
+    flex-direction: column;
+}
+label, input{
+    font-size: 1rem;
+}
+figure{
+    border: 1px solid var(--color4);
+}
+/* ***Maps*** */
+div.map-container{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    justify-content: space-between;
+}
+div.map-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5%;
+    justify-content: space-around;
+    
+}
+div.map-section h3{
+    color: var(--color3);
+    font-size: 1.2rem;
+}
+div.map-container{
+    background-color: var(--color6);    
+    padding: 1%;
+    margin-bottom: 5%;
+    box-shadow: 0 4px 8px 0 var(--color4);
+}
+#map-icon{
+    width: 1em;
+}
+td.location{
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
